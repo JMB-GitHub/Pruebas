@@ -8,6 +8,7 @@ public class RegistroTemperaturas {
 		float[] temperaturas = new float[MAX_SEMANAS * 7];
 		int[] fecha = {1,1};
 		boolean fin = false;
+		int variableaquitar;
 		
 		while(!fin) {
 			System.out.println("\nBienvenido al registro de temperaturas");
